@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hansson.cakeshop.MainActivity"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/mooncake"
+        android:layout_weight="1"/>
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Miss Cake"
+        android:textSize="40sp"
+        android:textColor="#D6A52C"
+        android:background="#F5DEB3"
+        android:paddingLeft="10dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="39322581"
+        android:textColor="#D6A52C"
+        android:textSize="24sp"
+        android:background="#F5DEB3"
+        android:paddingLeft="10dp"/>
+
+    <TextView
+        android:text="No.100 Cuisine Street"
+        android:textColor="#D6A52C"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:background="#F5DEB3"
+        android:paddingLeft="10dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open every day,7-11am"
+        android:textColor="#D6A52C"
+        android:textSize="16sp"
+        android:background="#F5DEB3"
+        />
+
+
+</LinearLayout>
